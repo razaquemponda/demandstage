@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { BarChart3, Filter } from "lucide-react";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select.tsx";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar.tsx";
 import { getTallies, fetchArtists, fetchCities, fetchArtistsWithImages, type VoteTally, type ArtistInfo } from "@/lib/voteData";
 import { supabase } from "@/integrations/supabase/client";
 

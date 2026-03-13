@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { CheckCircle, Vote } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button.tsx";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select.tsx";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar.tsx";
 import { fetchArtistsWithImages, fetchCities, castVote, hasVoted, type ArtistInfo } from "@/lib/voteData";
 import { useToast } from "@/hooks/use-toast";
 

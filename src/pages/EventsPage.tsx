@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { CalendarDays, MapPin, Clock, Users, Sparkles, Star, Ticket } from "lucide-react";
 import { format } from "date-fns";
-import { Badge } from "@/components/ui/badge";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge.tsx";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar.tsx";
 import { supabase } from "@/integrations/supabase/client";
 import { fetchArtistsWithImages, type ArtistInfo } from "@/lib/voteData";
 

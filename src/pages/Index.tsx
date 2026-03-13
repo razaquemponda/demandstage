@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowRight, TrendingUp, Users, BarChart3, Mic2 } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button.tsx";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar.tsx";
 import heroBg from "@/assets/hero-bg.jpg";
 import { getTrendingCombinations, seedDemoVotes, fetchArtistsWithImages, type VoteTally, type ArtistInfo } from "@/lib/voteData";
 
